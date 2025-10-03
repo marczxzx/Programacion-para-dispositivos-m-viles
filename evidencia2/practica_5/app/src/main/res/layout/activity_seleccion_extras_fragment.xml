@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="?android:attr/colorBackground">
+
+    <!-- Título -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_seleccionaExtras"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="?android:attr/textColorPrimary"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="24dp"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- Opciones de extras -->
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/opcBebida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_bebida"
+        android:textSize="16sp"
+        android:paddingVertical="12dp" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/opcPapas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_papaFritas"
+        android:textSize="16sp"
+        android:paddingVertical="12dp" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/opcEnsalada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_Ensalda"
+        android:textSize="16sp"
+        android:paddingVertical="12dp" />
+
+    <!-- Botón Siguiente -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSiguienteExtras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_siguiente"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="32dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        app:cornerRadius="16dp" />
+
+</LinearLayout>

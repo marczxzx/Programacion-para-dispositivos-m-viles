@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/background_color">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_Bienvenida"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text_color"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnNuevoPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_nuevoPedido"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="32dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        app:cornerRadius="16dp" />
+
+</LinearLayout>

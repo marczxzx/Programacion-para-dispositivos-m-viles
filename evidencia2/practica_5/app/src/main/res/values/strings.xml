@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Practica5_FragmentsNavegacion</string>
+    <string name="msg_Bienvenida">BIENVENIDO!\nrealiza un pedido</string>
+    <string name="msg_nuevoPedido">Nuevo Pedido</string>
+    <string name="msg_Confirmar">Confirmar Pedido</string>
+    <string name="msg_Editar">Editar Pedido</string>
+    <string name="msg_comida">Comida :</string>
+    <string name="msg_extras">Extras :</string>
+    <string name="msg_Resumen">Resumen de Pedido</string>
+    <string name="msg_pizza">Pizza</string>
+    <string name="msg_Hamburgesa">Hamburgesa</string>
+    <string name="msg_frejoles">Frejoles</string>
+    <string name="btn_siguiente">Siguiente</string>
+    <string name="msg_selecciona">Selecciona tu Comida</string>
+    <string name="msg_seleccionaExtras">Seleccion tu Extra</string>
+    <string name="msg_bebida">Bebida</string>
+    <string name="msg_papaFritas">Papas Fritas</string>
+    <string name="msg_Ensalda">Ensalada</string>
+</resources>
